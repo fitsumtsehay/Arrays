@@ -1,6 +1,9 @@
-/* *create array with numbers 1-10
-   *Loop through the numbers
-   * Print the total
+/* *create an empty variable. (sum)
+Initialize it with 0 in a loop.
+go through each element
+add each element to sum.
+Print sum.
+
  */
 public class Main {
     public static void main(String [] args) {
@@ -11,7 +14,7 @@ int sum = 0;
 
 for ( int num : ints) {
     sum = sum+num;
-    
+
 /* print output*/
 System.out.println("The total number is " +sum);
     }
